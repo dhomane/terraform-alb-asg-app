@@ -16,10 +16,7 @@ terraform {
 #  }
 }
 
-provider "aws" {
-  region  = var.region
-  #profile = var.profile
-}
+
 
 provider "github" {
   token = var.github_token
